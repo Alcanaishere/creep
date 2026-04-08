@@ -12,6 +12,11 @@ header {
     border-bottom: 1px solid #333;
 }
 
+header a {
+    color: #ddd;
+    text-decoration: none;
+}
+
 header h1 {
     letter-spacing: 6px;
     font-size: 26px;
