@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang=ja>
+    <head>
+        <meta charset='UTF-8'>
+        <title></title>
+        <link rel='stylesheet' href='rooms.css'>
+        <script type='text/javascript' src='rooms.js' defer></script>
+    </head>
+    <body>
+
+        <header>
+            <h1>夕凪旅館</h1>
+        </header>
+        
+        <nav>
+            <a href="/creep/codes/rooms/rooms.html">客室案内</a>
+            <a href="/creep/codes/plans/plans.html">宿泊プラン</a>
+            <a href="/creep/codes/caption/caption.html">館内案内</a>
+            <a href="/creep/codes/reservation/reservation.html">予約</a>
+        </nav>
+        
+        <main>
+            <h2>部屋を検索</h2>
+
+            <div class="search">
+                <input type="text" id="search_input" name="search" placeholder="部屋名、条件等を入力">
+                <button onclick="search()">検索</button>
+            </div>
+            <p id="result"></p>
+
+            <div class="rooms">
+                <article class="room" id="roomA">
+                    <img src="https://raw.githubusercontent.com/Alcanaishere/creep/refs/heads/main/img/rooms/chitose.png">
+                    <div>
+                        <h3>銘木の間「千歳 -Chitose-」</h3>
+                        <p>樹齢数百年の<span>檜（ひのき）</span>を贅沢に使用した、木の香りに包まれる純和風のお部屋です。職人技が光る組子細工の障子から漏れる光が、静寂な時間を演出します。</p>
+                    </div>
+                </article>
+
+                <article class="room" id="roomB">
+                    <img src="https://raw.githubusercontent.com/Alcanaishere/creep/refs/heads/main/img/rooms/soten.png">
+                    <div>
+                        <h3>展望露天の離れ「蒼天 -Soten-」</h3>
+                        <p>宿の最上階に位置し、専用の源泉かけ流し露天風呂を備えたスイート仕様。遮るもののない山並みを眺めながら、誰にも邪魔されない開放感を味わえます。</p>
+                    </div>
+                </article>
+
+                <article class="room" id="roomC">
+                    <img src="https://raw.githubusercontent.com/Alcanaishere/creep/refs/heads/main/img/rooms/sumizome.png">
+                    <div>
+                        <h3>モダン文豪の書斎「墨染 -Sumizome-」</h3>
+                        <p>和紙の壁紙と低い本棚に囲まれた、落ち着いたトーンの和モダンなお部屋です。<span>文机（ふみづくえ）</span>が備え付けられており、読書や思索に耽る大人の隠れ家として最適です。</p>
+                    </div>
+                </article>
+
+                <article class="room" id="roomD">
+                    <img src="https://raw.githubusercontent.com/Alcanaishere/creep/refs/heads/main/img/rooms/kokeniwa.png">
+                    <div>
+                        <h3>庭園直結の間「苔庭 -Kokeniwa-」</h3>
+                        <p>手入れの行き届いた日本庭園にそのまま出られる、1階のお部屋です。濡れ縁に座って四季折々の草花を愛でることができ、自然との一体感を楽しめます。</p>
+                    </div>
+                </article>
+
+                <article class="room" id="roomE">
+                    <img src="https://raw.githubusercontent.com/Alcanaishere/creep/refs/heads/main/img/rooms/nagi.png">
+                    <div>
+                        <h3>現代湯治の部屋「凪 -Nagi-」</h3>
+                        <p>ミニマリズムを取り入れた、シンプルで機能的な洋室タイプです。高品質なマットレスと調光システムを採用し、<span>「良質な睡眠」</span>を追求した心身のリセットのための空間です。</p>
+                    </div>
+                </article>
+            </div>
+        </main>
+
+        <footer>
+            ©2026夕凪旅館 All Rights Reserved
+        </footer>
+
+    </body>
+</html>
