@@ -1,1 +1,1 @@
-[visit site](https://alcanaishere.github.io/creep/index.html/)
+[visit site](https://alcanaishere.github.io/creep/)
