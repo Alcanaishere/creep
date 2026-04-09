@@ -7,3 +7,5 @@ if (localStrage.getItem('level') != b'')
 
 
 console.log("hello yuunagi");
+
+console.log(current_level);
